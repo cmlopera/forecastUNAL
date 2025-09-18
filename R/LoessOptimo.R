@@ -1,6 +1,6 @@
 #' Función `LoessOptimo()`
 #'
-#' Para ajuste y pronóstico de una serie no estacional mediante loess óptimo según citerios de información.
+#' Para ajuste y pronóstico de una serie no estacional mediante loess óptimo según criterios de información.
 #' @param serie Un objeto tipo `ts` de serie de tiempo univariada con los valores de la serie a ajustar.
 #' @param grado Grado del polinomio local a ser ajustado sobre la serie. `grado=1` es para loess lineal y `grado=2` es para loess cuadrático. Su valor por defecto es 1.
 #' @param criterio Tipo de criterio de información `"aicc"` ó `"gcv"`, a usar para la elección del parámetro de suavizamiento en la rutina de loess óptimo mediante la función R `loess.as()` de la librería `fANCOVA`. Por defecto es `"aicc"`.
@@ -12,7 +12,7 @@
 #' * `MSE` Estimación de la varianza del error de ajuste.
 #' * `fitted` Objeto `ts` de la serie estimada.
 #' * `residuals` Objeto `ts` con los residuos de ajuste obtenidos como la diferencia entre los valores observados y los ajustados para la serie.
-#' * `forecast` Objeto `ts` multivariado con las predicciones puntuales y por intervalo para los ha periodos pedidos.
+#' * `forecast` Objeto `ts` multivariado con las predicciones puntuales y por intervalo para los `h` periodos pedidos.
 #' @export
 #' @examples
 #' serie <- ts(DatosChippy$serie,freq=12,start=c(1990,1))

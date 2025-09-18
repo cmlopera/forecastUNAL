@@ -4,7 +4,7 @@
 #'
 #' @param z Una serie de tiempo.
 #' @param lag.max Un entero indicando el máximo orden autorregresivo para el proceso `AR(p)`.
-#' @param Criterio El criterio de información a usar para la selección del orden `p`. Por defecto es `"BIC"` (Bayesian Information Criterion). Otras opciones son `"AIC"` (Akaike Information Criterion), `"UBIC"` (Uncertainty-Penalized Bayesian Information Criterion), `"EBIC"` (Extended BIC), y `"GIC"` (Generalizad Information Criterion).
+#' @param Criterion El criterio de información a usar para la selección del orden `p`. Por defecto es `"BIC"` (Bayesian Information Criterion). Otras opciones son `"AIC"` (Akaike Information Criterion), `"UBIC"` (Uncertainty-Penalized Bayesian Information Criterion), `"EBIC"` (Extended BIC), y `"GIC"` (Generalizad Information Criterion).
 #' @param Best El número final de modelos a ser seleccionados.
 #' @param Candidates El número de inicialmente seleccionados usando el criterio aproximado.
 #' @param t Parámetro de ajuste en los criterios`"EBIC"`, `"GIC"`.

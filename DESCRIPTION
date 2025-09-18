@@ -1,8 +1,11 @@
 Package: forecastUNAL
-Title: What the Package Does (One Line, Title Case)
+Title: Ajuste de Modelos para Análisis de Series de Tiempo
 Version: 0.0.0.9000
-Authors@R:
-    person("Nelfi", "Gonzalez", , "ngonzale@unal.edu.co", role = c("aut", "cre"))
+Authors@R: c(
+    person("Nelfi", "Gonzalez-Alvarez", email = "ngonzale@unal.edu.co", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-0129-1316")),
+    person("Carlos Mario", "Lopera-Gómez", email = "ngonzale@unal.edu.co", role = c("ctb", "cre"), comment = c(ORCID = "0000-0003-2520-7019"))
+)
+
 Description: Implementación de modelos y análisis de series de tiempo de la asignatura Estadística III (3009137) del Departamento de Estadística de la Universidad Nacional de Colombia, Sede Medellín.
 License: MIT + file LICENSE
 Encoding: UTF-8
