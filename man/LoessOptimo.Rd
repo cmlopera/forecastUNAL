@@ -25,11 +25,11 @@ Una lista con los siguientes objetos:
 \item \code{MSE} Estimación de la varianza del error de ajuste.
 \item \code{fitted} Objeto \code{ts} de la serie estimada.
 \item \code{residuals} Objeto \code{ts} con los residuos de ajuste obtenidos como la diferencia entre los valores observados y los ajustados para la serie.
-\item \code{forecast} Objeto \code{ts} multivariado con las predicciones puntuales y por intervalo para los ha periodos pedidos.
+\item \code{forecast} Objeto \code{ts} multivariado con las predicciones puntuales y por intervalo para los \code{h} periodos pedidos.
 }
 }
 \description{
-Para ajuste y pronóstico de una serie no estacional mediante loess óptimo según citerios de información.
+Para ajuste y pronóstico de una serie no estacional mediante loess óptimo según criterios de información.
 }
 \examples{
 serie <- ts(DatosChippy$serie,freq=12,start=c(1990,1))
