@@ -1,0 +1,29 @@
+Package: forecastUNAL
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R:
+    person("Nelfi", "Gonzalez", , "ngonzale@unal.edu.co", role = c("aut", "cre"))
+Description: Implementación de modelos y análisis de series de tiempo de la asignatura Estadística III (3009137) del Departamento de Estadística de la Universidad Nacional de Colombia, Sede Medellín.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    car,
+    fANCOVA,
+    forecast,
+    ggplot2,
+    graphics,
+    gridExtra,
+    lmtest,
+    stats,
+    strucchange
+URL: https://github.com/
+BugReports: https://github.com/
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
