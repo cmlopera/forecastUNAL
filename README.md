@@ -4,9 +4,16 @@ El objetivo de forecastUNAL es facilitar la implementación de modelos y anális
 
 ## Installation
 
-Usted puede instalar la versión de desarrollo de `forecastUNAL` de la siguiente manera:
+Usted puede instalar la versión de desarrollo de `forecastUNAL`. Para ello siga los siguientes pasos:
 
-``` r
-#install.packages("devtools")
-devtools::install_github("cmlopera/forecastUNAL")
-```
+1. Instalar la librería `devtools`:
+
+    ``` r
+    install.packages("devtools")
+    ```
+
+2. Instalar la librería `forecastUNAL`:
+
+    ``` r
+    devtools::install_github("cmlopera/forecastUNAL")
+    ```
