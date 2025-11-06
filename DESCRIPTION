@@ -1,0 +1,26 @@
+Package: forecastUNAL
+Title: Ajuste de Modelos para Análisis de Series de Tiempo
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Nelfi", "Gonzalez-Alvarez", email = "ngonzale@unal.edu.co", role = c("aut")),
+    person("Carlos Mario", "Lopera-Gómez", email = "cmlopera@unal.edu.co", role = c("ctb", "cre")))
+Description: Implementación de modelos y análisis de series de tiempo de la asignatura Estadística III (3009137) del Departamento de Estadística de la Universidad Nacional de Colombia, Sede Medellín.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: 
+    car,
+    fANCOVA,
+    forecast,
+    ggplot2,
+    graphics,
+    gridExtra,
+    lmtest,
+    stats,
+    strucchange
+URL: https://github.com/cmlopera/forecastUNAL
+BugReports: https://github.com/cmlopera/forecastUNAL/issues
+Depends: 
+    R (>= 3.5)
+LazyData: true
